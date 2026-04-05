@@ -1,4 +1,7 @@
 package com.indistudia.demoserver;
 
-public record DemoResponse() {
+public record DemoResponse(
+        String name,
+        int age
+) {
 }
